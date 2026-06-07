@@ -1,5 +1,13 @@
 @ECHO OFF
+:: -----------------------
+:: Author: Abhishek Jayamanne
+:: Contact: abhishekjayamanne@gmail.com
+:: -----------------------
+
 SETLOCAL EnableDelayedExpansion
+
+CD /D "%~dp0"
+
 SET dirStr=
 SET dirList=
 FOR %%d IN (*.tif) DO (
